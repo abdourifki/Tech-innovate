@@ -8,5 +8,10 @@
         background-image: url('../assets/home-img.jpg');
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        height: 90vh;
+}
+.text-gradient{
+        background: linear-gradient(to right, #204fdc, #c359f0);
+    -webkit-background-clip: text;
+    color: transparent;
 }
