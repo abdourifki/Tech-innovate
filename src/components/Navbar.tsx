@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <>
-      <div className="w-full h-20 bg-black grid items-center grid-cols-3 fixed">
+      <div className="w-full h-20 bg-black grid items-center grid-cols-3 ">
         <div className="w-[200px]">
           <Image src={logo} alt="logo"className="pt-3" />
         </div>
