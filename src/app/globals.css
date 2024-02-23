@@ -15,3 +15,25 @@
     -webkit-background-clip: text;
     color: transparent;
 }
+.card-container:hover .card-icon{
+        display: none;
+}
+.card-container:hover .arrow-icon{
+        display: block;
+      
+}
+
+.card-container:hover{
+        background-color: rgb(171, 28, 28);
+        color: white;
+        transition: all 0.5s ease-in-out;
+        height: 350px;
+        cursor: pointer;
+}
+.card-container:hover .card-title{
+        padding-top: 40px;
+}
+.expert-card:hover {
+        background-color: black;
+        opacity: 0.5 ;
+}
