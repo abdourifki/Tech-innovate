@@ -22,12 +22,12 @@ export default function portfolio() {
       </div>
       <div className="flex items-center justify-center mt-20">
       <div className="grid grid-cols-3 grid-rows-2 gap-x-14 gap-y-7 w-[70%]">
-        <Cardcontainer picture={pic1} title="GUINESS" />
-        <Cardcontainer picture={pic2} title="THE CREATIVE PAIN" />
-        <Cardcontainer picture={pic3} title="SPOOKY TIME " />
-        <Cardcontainer picture={pic4} title="MATCH SOLVER" />
-        <Cardcontainer picture={pic5} title="STICKERS" />
-        <Cardcontainer picture={pic6} title="ART SOLVER" />
+        <Cardcontainer picture={pic1} title={<p>GUINESS</p>} />
+        <Cardcontainer picture={pic2} title={<p>THE CREATIVE PAIN</p>} />
+        <Cardcontainer picture={pic3} title={<p>SPOOKY TIME</p>} />
+        <Cardcontainer picture={pic4} title={<p>MATCH SOLVER</p>}/>
+        <Cardcontainer picture={pic5} title={<p>STICKERS</p>} />
+        <Cardcontainer picture={pic6} title={<p>ART SOLVER</p>} />
       </div>
       </div>
       
