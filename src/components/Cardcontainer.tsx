@@ -1,7 +1,8 @@
 import { StaticImageData } from "next/image";
 import  Image from "next/image";
+import { ReactNode } from "react";
 
-type Props = { picture: StaticImageData; title: string };
+type Props = { picture: StaticImageData; title: ReactNode };
 const Cardcontainer = ({ picture, title }: Props) => {
   return (
     <div className="shadow-xl bg-gray-50  p-6  transform transition-transform hover:scale-105">
